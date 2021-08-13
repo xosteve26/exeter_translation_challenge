@@ -37,7 +37,7 @@ with open('t8.shakespeare.txt','r') as shks:
 print("Read Shakespeare")
 
 #Write the translated data into the t8.shakespeare.txt file
-with open('t8.shakespeare.txt','w') as shks_w:
+with open('t8.shakespeare.translated.txt','w') as shks_w:
     shks_w.write(shks_content)
 print("Translation Completed")
 
